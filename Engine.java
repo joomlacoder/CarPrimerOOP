@@ -74,11 +74,12 @@ public class Engine {
             return;
         }
 
-        if(type == "e"){
+        if(type.equalsIgnoreCase("e")){
             System.out.println("тзсс-с-с-с");
         } else {
             System.out.println("дрр-р-р-р-р");
         }
+        started = true;
         System.out.println("Двигатель заведен");
     }
 
