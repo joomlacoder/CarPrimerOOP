@@ -45,7 +45,8 @@ public class Main {
         motorShow.setCar(new Car[]{carOne, carTwo});
 
         motorShow.getCar()[0].start();
-        motorShow.getCar()[0].getEngine().start();
+        motorShow.getCar()[0].getEngine().start();//Не является хорошм тоном
+        engineOne.stop();//Тоже не есть хорошо
         motorShow.getCar()[1].start();
         motorShow.getCar()[0].stop();
         motorShow.getCar()[1].stop();
